@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./shara\ desert.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.navbar-menu{
+    display: block;
+}
+
+.navbar-menu ul{
+    list-style: none;
+   
+    text-align: right;
+    margin-right: 200px;
+}
+
+.navbar-menu li{
+    display: inline-block;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.navbar-menu a:hover{
+    background-color: brown;
+}
+
+
+.container-2{
+    display: flex;
+}
+
+.item-a{
+    width: 50%;
+    height: 800px; 
+}
+
+.item-1{
+    padding-top: 200px;
+    padding-left: 50px;
+    color: white;
+}
+
+.item-b{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    position: relative;
+    left: 0px;
+
+}
+
+.item-2{
+    width: 300px;
+    height: 35%;
+    padding-top: 10px;
+    padding-left: 10px;
+    color:white;
+    transition: 1.5s;
+    border-radius: 20px;
+    font-size: 16px;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.item-2:hover{
+    transform: translateY(-20px);
+}
+
+.box-1{
+    background-image: url(./pic-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-2{
+    background-image: url(./pic-2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-3{
+    background-image: url(./pic-3.png);
+    background-position: center;
+    background-size: cover;  
+}
+
+.box-4{
+    background-image: url(./pic-4.png);
+    background-position: center;
+    background-size: cover;  
+}
+
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    
+}
+
+.home{
+    display: inline-block;
+}
+
+ion-icon{
+    color: white; 
+}
+
+.container-1 .logo {
+    font-size: 100px;
+}
+
+@media only screen and (max-width:856px){
+    .item-a{
+        position: relative;
+        left: 25%;
+        top: 25px;
+        gap: 25px;
+        flex-direction: row;
+        font-size: 18px;
+
+    }
+
+    .item-2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .item-1{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:390px){
+    .item-a{
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: 25px;
+        gap: 25px;
+        flex-direction: row;
+        font-size: 18px;
+
+    }
+
+    .navbar-menu{
+        position: relative;
+        left: 12%;
+        top: 40px;
+    }
+
+    
+}
